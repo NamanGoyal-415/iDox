@@ -1,0 +1,72 @@
+:root {
+    /* font-size */
+    --fs-xs: 10px;
+    --fs-s: 14px;
+    --fs-sm: 15px;
+    --fs-sm1: 16px;
+    --fs-sm2: 18px;
+    --fs-md: 20px;
+    --fs-l: 32px;
+    --fs-lg: 44px;
+
+
+    /* color */
+    --color-white: #fff;
+    --color-cream: #CACED1;
+    --color-cream2: #FBFDFF;
+    --color-bl: #030811;
+    --color-bl1: #020d15;
+    --color-light_blue: #0389FF;
+    --color-light_blue1: #0664bd;
+    --color-light_blue2: #0069E3;
+    --color-light_blue3: #006ae366;
+    --color-light_blue4: #1673FF;
+    --color-dark_blue: #13232e;
+    --color-dark_blue1: #021e38;
+    --color-dark_blue2: #021f37;
+    --color-dark_blue3: #053768;
+    --color-dark_blue4: #1b2a33;
+    --color-dark_blue5: #162229;
+}
+
+
+@media (min-width:320px) {
+    :root {
+        /* font-size */
+        --fs-sm1: 12px;
+        --fs-sm2: 13px;
+        --fs-md: 15px;
+        --fs-l: 22px;
+        --fs-lg: 24px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        /* font-size */
+        --fs-sm1: 12px;
+        --fs-sm2: 14px;
+        --fs-md: 16px;
+        --fs-l: 28px;
+        --fs-lg: 30px;
+    }
+}
+@media (min-width:1200px) {
+
+    :root {
+        /* font-size */
+        --fs-xs: 10px;
+        --fs-s: 14px;
+        --fs-sm: 15px;
+        --fs-sm1: 16px;
+        --fs-sm2: 18px;
+        --fs-md: 20px;
+        --fs-l: 32px;
+        --fs-lg: 44px;
+        --fs-xl: 48px;
+        --fs-xxl: 55px;
+    }
+
+}
+
+@media (min-width:1440px) {}
