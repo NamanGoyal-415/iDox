@@ -51,8 +51,8 @@
         --fs-lg: 30px;
     }
 }
-@media (min-width:1200px) {
 
+@media (min-width:1200px) {
     :root {
         /* font-size */
         --fs-xs: 10px;
@@ -68,5 +68,3 @@
     }
 
 }
-
-@media (min-width:1440px) {}
