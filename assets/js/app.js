@@ -10,12 +10,15 @@ let label = document.querySelector(".label");
 let menu = document.querySelector("#menu");
 let open = 0;
 let aTags = document.querySelectorAll("#menu li a");
+let Nav = document.querySelector("nav");
+
 aTags.forEach((c) => {
   c.addEventListener("click", () => {
     if (open != 0) {
       menu.style.right = "-100%";
       document.body.classList.remove("overflow-y-hidden");
       label.classList.remove("label-switch");
+      Nav.classList.add("bg-gredient");
       open--;
     }
   });
@@ -25,11 +28,13 @@ label.addEventListener("click", () => {
     menu.style.right = 0;
     document.body.classList.add("overflow-y-hidden");
     label.classList.add("label-switch");
+    Nav.classList.remove("bg-gredient");
     open++;
   } else {
     menu.style.right = "-100%";
     document.body.classList.remove("overflow-y-hidden");
     label.classList.remove("label-switch");
+    Nav.classList.add("bg-gredient");
     open--;
   }
 });
@@ -111,13 +116,23 @@ $(".slider-1").slick({
 });
 
 $(".slider-2").slick({
-  autoplay: false,
+  autoplay: true,
   centerMode: true,
-  centerPadding: "270px",
+  centerPadding: "500px",
   slidesToShow: 1,
   dots: true,
   arrows: false,
   responsive: [
+    {
+      breakpoint: 1500,
+      settings: {
+        infinite: true,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: "270px",
+      },
+    },
+
     {
       breakpoint: 992,
       settings: {
