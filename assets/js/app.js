@@ -118,11 +118,20 @@ $(".slider-1").slick({
 $(".slider-2").slick({
   autoplay: true,
   centerMode: true,
-  centerPadding: "500px",
+  centerPadding: "650px",
   slidesToShow: 1,
   dots: true,
   arrows: false,
   responsive: [
+    // {
+    //   breakpoint: 2000,
+    //   settings: {
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     centerMode: true,
+    //     centerPadding: "550px",
+    //   },
+    // },
     {
       breakpoint: 1500,
       settings: {
