@@ -138,16 +138,17 @@ $(".slider-2").slick({
         infinite: true,
         slidesToShow: 1,
         centerMode: true,
-        centerPadding: "800px",
+        centerPadding: "890px",
       },
     },
+   
     {
       breakpoint: 2500,
       settings: {
         infinite: true,
         slidesToShow: 1,
         centerMode: true,
-        centerPadding: "680px",
+        centerPadding: "760px",
       },
     },
     {
