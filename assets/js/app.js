@@ -123,15 +123,60 @@ $(".slider-2").slick({
   dots: true,
   arrows: false,
   responsive: [
-    // {
-    //   breakpoint: 2000,
-    //   settings: {
-    //     infinite: true,
-    //     slidesToShow: 1,
-    //     centerMode: true,
-    //     centerPadding: "550px",
-    //   },
-    // },
+    {
+      breakpoint: 3000,
+      settings: {
+        infinite: true,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: "1050px",
+      },
+    },
+    {
+      breakpoint: 2800,
+      settings: {
+        infinite: true,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: "800px",
+      },
+    },
+    {
+      breakpoint: 2500,
+      settings: {
+        infinite: true,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: "680px",
+      },
+    },
+    {
+      breakpoint: 2300,
+      settings: {
+        infinite: true,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: "680px",
+      },
+    },
+    {
+      breakpoint: 2000,
+      settings: {
+        infinite: true,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: "550px",
+      },
+    },
+    {
+      breakpoint: 1700,
+      settings: {
+        infinite: true,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: "370px",
+      },
+    },
     {
       breakpoint: 1500,
       settings: {
@@ -141,7 +186,6 @@ $(".slider-2").slick({
         centerPadding: "270px",
       },
     },
-
     {
       breakpoint: 992,
       settings: {

@@ -33,6 +33,7 @@
 @media (min-width:320px) {
     :root {
         /* font-size */
+        --fs-sm: 13px;
         --fs-sm1: 12px;
         --fs-sm2: 13px;
         --fs-md: 15px;
@@ -44,7 +45,7 @@
 @media (min-width:768px) {
     :root {
         /* font-size */
-            --fs-sm: 13px;
+        --fs-sm: 13px;
         --fs-sm1: 12px;
         --fs-sm2: 14px;
         --fs-md: 16px;

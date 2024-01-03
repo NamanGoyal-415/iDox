@@ -872,7 +872,9 @@ nav {
         z-index: 10;
         margin-top: 15px;
     }
-
+.middle-1{
+    text-align: center;
+}
     .menu {
         position: fixed;
         background-color: rgba(0, 0, 0, 0.6);
